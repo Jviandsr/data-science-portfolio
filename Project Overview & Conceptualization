@@ -1,0 +1,47 @@
+# 📚 Project Overview & Variable Operationalization
+
+## 1. Research Context & Background
+
+E-commerce marketplaces frequently leverage dynamic pricing strategies to maximize revenue and clear digital inventory ([Varian, 1980](https://www.jstor.org/stable/1803562); [Stigler, 1961](https://doi.org/10.1086/258464)). In the digital publishing market, price reductions are often used as promotional mechanisms to increase product visibility and acquire initial sales traction ([Forman et al., 2008](https://doi.org/10.1287/isre.1080.0193)). 
+
+This project explores how list price discounts vary across distinct literary genres and whether deeper price reductions correlate with higher consumer engagement—measured via rating counts on digital platforms. Additionally, the study investigates whether specific genres rely more heavily on steep pricing adjustments to maintain sales momentum or if high genre popularity mitigates the need for aggressive discounting.
+
+---
+
+## 2. Key Variables & Operationalization
+
+### Independent Variable: List Price Discount
+* **Conceptual Definition:** The percentage reduction applied to a book's official publisher list price on digital platforms.
+* **Operational Definition:** Calculated using pricing data extracted from API endpoints (e.g., Google Books API):
+
+$$\text{Discount Percentage (\%)} = \left( \frac{\text{List Price} - \text{Retail Price}}{\text{List Price}} \right) \times 100$$
+
+> **Data Handling Note:** Records missing explicit `listPrice` or `retailPrice` values are filtered out during data preprocessing.
+
+---
+
+### Dependent Variable: Consumer Engagement (Sales Proxy)
+* **Conceptual Definition:** The volume of consumer interaction with a title on an online marketplace, serving as a proxy metric for overall sales performance.
+* **Operational Definition:** Quantified using the total count of user reviews and ratings recorded for a given volume (`ratingsCount`). To account for right-skewed engagement distributions typical in e-commerce:
+
+$$\text{Log Engagement} = \ln(\text{ratingsCount} + 1)$$
+
+---
+
+### Grouping Variable: Book Category / Genre
+* **Conceptual Definition:** The thematic classification assigned to a literary work.
+* **Operational Definition:** Derived from the `categories` array provided by the API (e.g., *"Fiction"*, *"Computers"*, *"Business & Economics"*). Titles are grouped into primary genres to evaluate cross-category pricing strategy variance.
+
+---
+
+### Confounding Variable: Genre Popularity & Demand Trends
+* **Conceptual Definition:** Baseline consumer demand for a specific genre independent of promotional pricing events.
+* **Operational Definition:** Quantified by calculating aggregate metrics per genre, including the average rating count across non-discounted control titles and relative representation within top-selling search categories.
+
+---
+
+## References (APA)
+
+* Forman, C., Ghose, A., & Wiesenfeld, B. (2008). Examined versus unexamined review characteristics: The role of reviewer identity information in online product reviews. *Information Systems Research*, 19(3), 291–313. https://doi.org/10.1287/isre.1080.0193
+* Stigler, G. J. (1961). The economics of information. *Journal of Political Economy*, 69(3), 213–225. https://doi.org/10.1086/258464
+* Varian, H. R. (1980). A model of sales. *The American Economic Review*, 70(4), 651–659. https://www.jstor.org/stable/1803562
