@@ -16,7 +16,7 @@
 
 ### Planned Data Sources
 
-| Platform | Primary Use Case | Status |
+| Platform | Primary Use Case | Source |
 | :--- | :--- | :--- |
 | **Google Books API** | List pricing, sales capability, and review counts | [`Primary Candidate`](https://developers.google.com/books)
 | **Open Library API** | Edition metadata and broader historical categorization | [`Secondary Candidate`](https://openlibrary.org/developers/api)
@@ -28,3 +28,11 @@
 *  **Primary Metric:** Discount percentage vs. consumer rating counts (proxy for sales volume).
 *  **Categorical Metric:** Frequency and depth of discounts grouped by genre.
 *  **Confounding Variable:** Genre popularity trends and seasonality.
+
+### Portions of Project
+
+|Project Step | Title | Status |
+| :--- | :--- | :--- | :--- |
+| **1** | Conceptualization | [`Complete`](https://github.com/Jviandsr/data-science-portfolio/blob/main/Project%20Overview%20&%20Conceptualization) |
+
+---
