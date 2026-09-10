@@ -18,8 +18,8 @@
 
 | Platform | Primary Use Case | Status |
 | :--- | :--- | :--- |
-| **Google Books API** | List pricing, sales capability, and review counts | `Primary Candidate` |
-| **Open Library API** | Edition metadata and broader historical categorization | `Secondary Candidate` |
+| **Google Books API** | List pricing, sales capability, and review counts | `Primary Candidate` | (https://developers.google.com/books)
+| **Open Library API** | Edition metadata and broader historical categorization | `Secondary Candidate` | (https://openlibrary.org/developers/api)
 
 ---
 
