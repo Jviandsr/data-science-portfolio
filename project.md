@@ -31,8 +31,8 @@
 
 ### Portions of Project
 
-|Project Step | Title | Status |
-| :--- | :--- | :--- | :--- |
-| **1** | Conceptualization | [`Complete`](https://github.com/Jviandsr/data-science-portfolio/blob/main/Project%20Overview%20&%20Conceptualization) | |
+| Project Step | Title | Status |
+| :--- | :--- | :--- |
+| **1** | Conceptualization | [`Complete`](https://github.com/Jviandsr/data-science-portfolio/blob/main/Project%20Overview%20&%20Conceptualization) |
 
 ---
