@@ -2,7 +2,6 @@
 
 [![Domain](https://img.shields.io/badge/Domain-E--Commerce_Analytics-blue?style=flat-square)]()
 [![Focus](https://img.shields.io/badge/Focus-Dynamic_Pricing_%26_Consumer_Behavior-orange?style=flat-square)]()
-[![Status](https://img.shields.io/badge/Status-Phase_1:_Conceptualization-brightgreen?style=flat-square)]()
 
 ---
 
