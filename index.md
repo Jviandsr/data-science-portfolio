@@ -18,7 +18,6 @@ This website will document my learning and projects throughout the semester.
 - [Blog](https://github.com/Jviandsr/data-science-portfolio/blob/main/blog.md)
 - [Site](https://jviandsr.github.io/data-science-portfolio/)
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
