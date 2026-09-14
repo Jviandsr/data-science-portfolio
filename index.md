@@ -16,3 +16,28 @@ This website will document my learning and projects throughout the semester.
 ## Portfolio
 - [Projects](https://github.com/Jviandsr/data-science-portfolio/blob/main/project.md)
 - [Blog](https://github.com/Jviandsr/data-science-portfolio/blob/main/blog.md)
+- [site]()
+
+- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Portfolio | Jeff Viands</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Data Science & Analytics Portfolio</h1>
+        <p>Interactive Data Analysis, API Integration, and Visualizations</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Featured Project: Book Genre Edition Distribution</h2>
+            <p>Investigating how book edition distribution and publishing metrics vary across literary genres using data retrieved via the Open Library API.</p>
+            <img src="genre_edition_distribution.png" alt="Genre Edition Distribution Chart">
+        </section>
+    </main>
+</body>
+</html>
