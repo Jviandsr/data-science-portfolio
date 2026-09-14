@@ -14,3 +14,5 @@ Charlotte, NC | (###)-###-#### | jviandsr@charlotte.edu | [LinkedIn](https://www
 ### Technical Data Analyst | Bank of America
 *Feb 2024 - Present*
 * Conveyance of Key Points: Adherence to Standards & Metric Performance Analysis.
+
+![Genre Edition Distribution Chart](genre_edition_distribution.png)
