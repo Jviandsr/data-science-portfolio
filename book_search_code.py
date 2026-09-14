@@ -71,16 +71,16 @@ df_raw = fetch_open_library_data(target_subjects)
 
 # 2. Data Cleaning & Preparation
 df_clean = df_raw.dropna(subset=['FirstPublishYear']).copy()
-# Filter out obvious anomalous publish years
+# Filter out anomalous publish years
 df_clean = df_clean[(df_clean['FirstPublishYear'] >= 1800) & (df_clean['FirstPublishYear'] <= 2026)]
 
 print(f"Successfully cleaned dataset with {len(df_clean)} observations.")
 
-# Save dataset locally for GitHub reproducibility
+# Saves dataset locally for GitHub reproducibility
 df_clean.to_csv('open_library_cleaned_books.csv', index=False)
 
 # 3. Data Visualization (Chart Generation)
-# Setting up visual style
+# Sets up visual style
 plt.figure(figsize=(12, 6))
 seaborn_module.set_theme(style="whitegrid")
 
@@ -90,7 +90,7 @@ ax = seaborn_module.boxplot(
     x='Subject', 
     y='EditionCount', 
     palette='muted',
-    showfliers=False # Removes extreme outliers for cleaner chart scaling
+    showfliers=False # Remove extreme outliers for cleaner chart
 )
 
 plt.title('Comparison of Edition Counts Across Book Categories (Open Library API)', fontsize=14, fontweight='bold', pad=15)
