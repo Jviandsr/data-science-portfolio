@@ -18,7 +18,7 @@ Welcome to my Data Science Studio portfolio. This website will document my learn
 ## Featured Project: Book Genre Edition Distribution
 Investigating how book edition distribution and publishing metrics vary across literary genres using data retrieved via the Open Library API.
 
-![Comparison of Edition Counts Across Book Categories](https://github.com/Jviandsr/data-science-portfolio/blob/main/output.bookcategories.png)
+<img src="output.bookcategories.png" alt="Comparison of Edition Counts Across Book Categories">
 
 <!DOCTYPE html>
 <html lang="en">
