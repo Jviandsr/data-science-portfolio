@@ -1,6 +1,11 @@
+---
+layout: default
+title: Blog
+---
+
 # Welcome to My Data Science Journey!
 
-Hi there! My name is **Jeffrey David Viands-Reyes** (most people call me **Jeff**), and welcome to my space on GitHub! 
+Hi there! My name is **Jeffrey David Viands-Reyes**...(most people call me **Jeff**), and welcome to my space on GitHub! 
 
 I created this blog and portfolio to document my hands-on learning, showcase data science projects, and share insights as I progress through my studies and career.
 
