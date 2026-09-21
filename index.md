@@ -12,8 +12,8 @@ I'm looking forward to meeting folks and learning new stuff.
 Welcome to my Data Science Studio portfolio. This website will document my learning and projects throughout the semester.
 
 ## Portfolio
-- [Projects](project.md)
-- [Blog](blog.md)
+- [Projects](./project)
+- [Blog](./blog)
 
 ## Featured Project: Book Genre Edition Distribution
 Investigating how book edition distribution and publishing metrics vary across literary genres using data retrieved via the Open Library API.
