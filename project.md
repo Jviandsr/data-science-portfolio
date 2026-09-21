@@ -34,7 +34,7 @@
 | Project Step | Title | Status |
 | :--- | :--- | :--- |
 | **1** | Conceptualization | [Complete](./Project_Overview_%26_Conceptualization.html) |
-| **2** | Data Cleaning | [Complete](./data-cleaning.html) |
+| **2** | Data Cleaning | [Complete](./Book_Search_Code.py) |
 | **3** | Ethics & Limitations | Complete |
 | **4** | Code Review | In Progress |
 | **5** | Academic | [Complete](./Project_Overview_%26_Conceptualization.html) |
