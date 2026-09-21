@@ -33,10 +33,10 @@
 
 | Project Step | Title | Status |
 | :--- | :--- | :--- |
-| **1** | Conceptualization | [Complete](https://github.com/Jviandsr/data-science-portfolio/blob/main/Project_Overview_%26_Conceptualization.md) |
-| **2** | Data Cleaning | [Complete](https://github.com/Jviandsr/data-science-portfolio/blob/main/book_search_code.py) |
+| **1** | Conceptualization | [Complete](./Project_Overview_%26_Conceptualization.html) |
+| **2** | Data Cleaning | [Complete](./data-cleaning.html) |
 | **3** | Ethics & Limitations | Complete |
 | **4** | Code Review | In Progress |
-| **5** | Academic | [Complete](https://github.com/Jviandsr/data-science-portfolio/blob/main/Project_Overview_%26_Conceptualization.md) |
+| **5** | Academic | [Complete](./Project_Overview_%26_Conceptualization.html) |
 
 ---
