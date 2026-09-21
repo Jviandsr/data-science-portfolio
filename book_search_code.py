@@ -1,3 +1,13 @@
+---
+layout: default
+title: Data Cleaning & API Script
+---
+
+# Data Cleaning & Pipeline
+
+This script retrieves book metadata, edition counts, and publication metrics from the Open Library API.
+
+```python
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
