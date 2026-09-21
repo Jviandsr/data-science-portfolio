@@ -33,7 +33,7 @@
 
 | Project Step | Title | Status |
 | :--- | :--- | :--- |
-| **1** | Conceptualization | [`Complete`](./Project_Overview_&_Conceptualization) |
+| **1** | Conceptualization | [`Complete`](./Project_Overview_&_Conceptualization.mb) |
 | **2** | Data Cleaning | [`Complete`](https://github.com/Jviandsr/data-science-portfolio/blob/main/book_search_code.py) |
 | **3** | Ethics & Limitations | `Complete` |
 | **4** | Code Review | `In Progress` |
