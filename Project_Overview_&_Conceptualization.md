@@ -1,3 +1,9 @@
+```markdown
+---
+layout: default
+title: Project Overview
+---
+
 # Research Conceptualization & Variable Operationalization
 
 [![Domain](https://img.shields.io/badge/Domain-E--Commerce_Analytics-blue?style=flat-square)]()
