@@ -33,26 +33,5 @@ Investigating how book edition distribution and publishing metrics vary across l
         <h1>Data Science & Analytics Portfolio</h1>
         <p>Interactive Data Analysis, API Integration, and Visualizations</p>
     </header>
-
-    <main class="container">
-        <section class="card">
-            <h2>About Me</h2>
-            <p>My name's Jeff, a full-time data science student at UNC Charlotte working full-time with a growing family.</p>
-        </section>
-
-        <section class="card">
-            <h2>Featured Project: Book Genre Edition Distribution</h2>
-            <p>Investigating how book edition distribution and publishing metrics vary across literary genres using data retrieved via the Open Library API.</p>
-            <img src="genre_edition_distribution.png" alt="Genre Edition Distribution Chart">
-        </section>
-
-        <section class="card">
-            <h2>Quick Links</h2>
-            <ul>
-                <li><a href="project.md">Projects</a></li>
-                <li><a href="blog.md">Blog</a></li>
-            </ul>
-        </section>
-    </main>
 </body>
 </html>
