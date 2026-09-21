@@ -37,6 +37,6 @@
 | **2** | Data Cleaning | [Complete](book_search_code.py) |
 | **3** | Ethics & Limitations | `Complete` |
 | **4** | Code Review | `In Progress` |
-| **5** | Academic | [`Complete`](https://github.com/Jviandsr/data-science-portfolio/blob/main/Project%20Overview%20&%20Conceptualization) |
+| **5** | Academic | [`Complete`](./Project_Overview_&_Conceptualization.md) |
 
 ---
