@@ -12,7 +12,8 @@ I'm looking forward to meeting folks and learning new stuff.
 Welcome to my Data Science Studio portfolio. This website will document my learning and projects throughout the semester.
 
 ## Portfolio
-- [Projects](./project.html)
+- [Project1](./project.html)
+- [Project2](./project2.mb)
 - [Blog](./blog.html)
 
 ## Featured Project: Book Genre Edition Distribution
