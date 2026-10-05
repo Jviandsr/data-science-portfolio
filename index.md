@@ -13,7 +13,7 @@ Welcome to my Data Science Studio portfolio. This website will document my learn
 
 ## Portfolio
 - [Project1](./project.html)
-- [Project2](./project2.mb)
+- [Project2](./project2.html)
 - [Blog](./blog.html)
 
 ## Featured Project: Book Genre Edition Distribution
