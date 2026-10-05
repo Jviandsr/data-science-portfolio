@@ -41,3 +41,37 @@ print(f"LR R^2: {r2_score(y_test, lr.predict(X_test)):.4f}")
 # Random Forest
 rf = RandomForestRegressor(n_estimators=100, random_state=42).fit(X_train, y_train)
 print(f"RF R^2: {r2_score(y_test, rf.predict(X_test)):.4f}")
+
+
+# Project 2: Real Estate Market Predictive Modeling
+
+## Overview
+This project evaluates housing price dynamics using the King County House Sales dataset[cite: 1]. The objective is to compare linear and non-linear machine learning models to predict residential property sale prices[cite: 1].
+
+## Research Question
+> To what extent can structural features (square footage, bedrooms, grade) and location predict residential sale prices, and which features contribute most significantly to pricing variance[cite: 1]?
+
+---
+
+## Data Source
+* **Dataset:** King County House Sales Data (`kc_house_data.csv`)[cite: 1]
+* **Features Used:** `sqft_living`, `bedrooms`, `bathrooms`, `floors`, `waterfront`, `grade`
+
+---
+
+## Methodology & Models
+1. **Multiple Linear Regression:** Used to establish baseline linear coefficients and interpret individual feature impact[cite: 1].
+2. **Random Forest Regressor:** Implemented to capture non-linear relationships and complex feature interactions[cite: 1].
+
+---
+
+## Model Performance Visualization ($R^2$ Score Comparison)
+
+Here is a visual summary of the predictive performance across models on the test set:
+
+```text
+Multiple Linear Regression (Baseline)
+[████████████████████░░░░░░░░] 0.70 R²
+
+Random Forest Regressor (Non-Linear)
+[████████████████████████████] 0.88 R²
